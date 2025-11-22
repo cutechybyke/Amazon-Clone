@@ -1,1 +1,1 @@
-This is a project I did to create an amazon cloen for ecommerce purposes.
+This is a project I did to create an amazon clone for e-commerce purposes.
