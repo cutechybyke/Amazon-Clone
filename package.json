@@ -1,0 +1,12 @@
+{
+  "name": "amazon-clone-tests",
+  "private": true,
+  "scripts": {
+    "test": "http-server . -p 8080 -c-1 & wait-on http://127.0.0.1:8080/tests/tests.html && playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "http-server": "^14.1.1",
+    "wait-on": "^8.0.4"
+  }
+}
